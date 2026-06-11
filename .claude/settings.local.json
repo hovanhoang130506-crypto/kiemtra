@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(update-config)",
+      "Read(//c/Users/nam/.claude/**)",
+      "Bash(npx -y @anthropic-ai/mcp-server-filesystem --version)",
+      "Bash(npx --version)",
+      "Bash(npx tsc *)",
+      "mcp__filesystem__directory_tree",
+      "mcp__filesystem__read_text_file",
+      "mcp__codegraph__codegraph_files",
+      "Bash(git -C \"D:/Android-APP/reactnative\" log --oneline -5)",
+      "Bash(git -C \"D:/Android-APP/reactnative\" diff HEAD~1 --stat)",
+      "Bash(git -C \"D:/Android-APP/reactnative\" log --oneline)",
+      "Bash(git -C \"D:/Android-APP/reactnative\" branch -a)",
+      "Bash(git -C \"D:/Android-APP/reactnative\" status --short)",
+      "Bash(git -C \"D:/Android-APP/reactnative\" show HEAD --stat)"
+    ]
+  }
+}
